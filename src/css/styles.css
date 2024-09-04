@@ -1,0 +1,50 @@
+body {
+  padding: 40px;
+  background-color: rgb(217, 219, 215);
+}
+
+.game-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.start {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: transparent;
+  font-size: 38px;
+  transition: color 250ms ease, background-color 250ms ease;
+}
+
+.start:hover,
+.start:focus {
+  border-color: transparent;
+  background-color: blue;
+  color: yellow;
+}
+
+.container {
+  display: flex;
+}
+
+.item {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.text {
+  font-size: 40px;
+}
